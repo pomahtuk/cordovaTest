@@ -1,0 +1,36 @@
+2014-10-29 16:41:02.705 Booking[69961:4711147] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/ilovriakov/Library/Developer/CoreSimulator/Devices/813088E2-88E1-4629-85EE-FE025C14A947/data/Containers/Data/Application/0A6E2FF9-E99D-4404-9188-3340DB8E1F7B/Library/Cookies/Cookies.binarycookies
+2014-10-29 16:41:02.855 Booking[69961:4711147] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-29 16:41:02.855 Booking[69961:4711147] Multi-tasking -> Device: YES, App: YES
+2014-10-29 16:41:02.885 Booking[69961:4711147] Unlimited access to network resources
+2014-10-29 16:41:02.893 Booking[69961:4711147] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-29 16:41:03.547 Booking[69961:4711147] [CDVTimer][file] 7.560015ms
+2014-10-29 16:41:03.629 Booking[69961:4711147] [CDVTimer][splashscreen] 81.045985ms
+2014-10-29 16:41:03.663 Booking[69961:4711147] [CDVTimer][statusbar] 34.052014ms
+2014-10-29 16:41:03.663 Booking[69961:4711147] [CDVTimer][TotalPluginStartup] 123.380959ms
+2014-10-29 16:41:07.206 Booking[69961:4711147] Resetting plugins due to page load.
+2014-10-29 16:41:07.592 Booking[69961:4711147] Finished load of: file:///Users/ilovriakov/Library/Developer/CoreSimulator/Devices/813088E2-88E1-4629-85EE-FE025C14A947/data/Containers/Bundle/Application/279AF26B-D101-49EF-838C-6B9BE9C5B2BB/Booking.app/www/index.html
+2014-10-29 16:41:07.676 Booking[69961:4711147] Received Event: deviceready
+2014-10-29 16:41:25.472 Booking[70150:4714450] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/ilovriakov/Library/Developer/CoreSimulator/Devices/813088E2-88E1-4629-85EE-FE025C14A947/data/Containers/Data/Application/52C4909E-A029-4E1E-B0D7-FB81025DD3BE/Library/Cookies/Cookies.binarycookies
+2014-10-29 16:41:25.584 Booking[70150:4714450] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-29 16:41:25.585 Booking[70150:4714450] Multi-tasking -> Device: YES, App: YES
+2014-10-29 16:41:25.590 Booking[70150:4714450] Unlimited access to network resources
+2014-10-29 16:41:25.594 Booking[70150:4714450] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+
+2014-10-29 16:41:25.844 Booking[70150:4714450] [CDVTimer][file] 2.920032ms
+2014-10-29 16:41:25.865 Booking[70150:4714450] [CDVTimer][splashscreen] 20.929992ms
+2014-10-29 16:41:25.868 Booking[70150:4714450] [CDVTimer][statusbar] 3.209949ms
+2014-10-29 16:41:25.868 Booking[70150:4714450] [CDVTimer][TotalPluginStartup] 27.562022ms
+2014-10-29 16:41:25.958 Booking[70150:4714450] Resetting plugins due to page load.
+2014-10-29 16:41:28.119 Booking[70150:4714450] Finished load of: file:///Users/ilovriakov/Library/Developer/CoreSimulator/Devices/813088E2-88E1-4629-85EE-FE025C14A947/data/Containers/Bundle/Application/6DD591A5-4EAE-4462-AEC1-19C3363CDE41/Booking.app/www/index.html
+2014-10-29 16:41:28.184 Booking[70150:4714450] Received Event: deviceready
