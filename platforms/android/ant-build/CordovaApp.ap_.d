@@ -39,8 +39,9 @@
 /Users/ilovriakov/cordovaProof/booking/platforms/android/assets/www/plugins \
 /Users/ilovriakov/cordovaProof/booking/platforms/android/assets/www/bower_components/requirejs \
 /Users/ilovriakov/cordovaProof/booking/platforms/android/assets/www/bower_components/requirejs/require.js \
+/Users/ilovriakov/cordovaProof/booking/platforms/android/assets/www/css/cf0dc8e0.style.css \
 /Users/ilovriakov/cordovaProof/booking/platforms/android/assets/www/css/e46d9a1c.main.css \
-/Users/ilovriakov/cordovaProof/booking/platforms/android/assets/www/img/e2e50ffe.logo.png \
+/Users/ilovriakov/cordovaProof/booking/platforms/android/assets/www/img/logo.png \
 /Users/ilovriakov/cordovaProof/booking/platforms/android/assets/www/js/0ba83df8.index.js \
 /Users/ilovriakov/cordovaProof/booking/platforms/android/assets/www/js/b2af17a5.fastclick.js \
 /Users/ilovriakov/cordovaProof/booking/platforms/android/assets/www/js/c01c83e5.main.js \

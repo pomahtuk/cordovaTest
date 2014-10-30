@@ -167,8 +167,7 @@ module.exports = function (grunt) {
                 files: {
                     src: [
                         '<%= booking.dist %>/js/{,*/}*.js',
-                        '<%= booking.dist %>/css/{,*/}*.css',
-                        '<%= booking.dist %>/img/{,*/}*.{png,jpg,jpeg,gif,webp}'
+                        '<%= booking.dist %>/css/{,*/}*.css'
                     ]
                 }
             }
