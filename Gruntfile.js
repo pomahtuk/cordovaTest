@@ -28,10 +28,10 @@ module.exports = function (grunt) {
         booking: gruntConfig,
         // TODO: Make this conditional
         watch: {
-            // compass: {
-            //     files: ['<%= booking.app %>**/*.{scss,sass}'],
-            //     tasks: ['compass:server']
-            // },
+            sass: {
+                files: ['<%= booking.app %>**/*.{scss,sass}'],
+                tasks: ['sass:server']
+            },
             livereload: {
                 options: {
                     livereload: LIVERELOAD_PORT
@@ -44,7 +44,6 @@ module.exports = function (grunt) {
                 ]
             }
         },
-        
         connect: {
             options: {
                 port: 9000,
@@ -122,27 +121,28 @@ module.exports = function (grunt) {
                 }
             }
         },
-        // compass: {
-        //     options: {
-        //         sassDir: '<%= booking.app %>/styles',
-        //         cssDir: '.tmp/styles',
-        //         generatedImagesDir: '.tmp/images/generated',
-        //         imagesDir: '<%= booking.app %>/images',
-        //         javascriptsDir: '<%= booking.app %>/scripts',
-        //         /*fontsDir: '<%= booking.app %>/styles/fonts',*/
-        //         importPath: '<%= booking.app %>/bower_components',
-        //         httpImagesPath: '/images',
-        //         httpGeneratedImagesPath: '/images/generated',
-        //         httpFontsPath: '/styles/fonts',
-        //         relativeAssets: false
-        //     },
-        //     dist: {},
-        //     server: {
-        //         options: {
-        //             debugInfo: true
-        //         }
-        //     }
-        // },
+        sass: {
+            server: {
+                options: {
+                    outputStyle: 'expanded'
+                },
+                files: {
+                    '.tmp/css/style.css': [
+                        '<%= booking.app %>/css/{,*/}*.{sass,scss}'
+                    ]
+                }
+            },
+            dist: {
+                options: {
+                    outputStyle: 'compressed'
+                },
+                files: {
+                    '<%= booking.dist %>/css/style.css': [
+                        '<%= booking.app %>/css/{,*/}*.{sass,scss}'
+                    ]
+                }
+            }
+        },
         requirejs: {
             dist: {
                 // Options: https://github.com/jrburke/r.js/blob/master/build/example.build.js
@@ -294,13 +294,13 @@ module.exports = function (grunt) {
         },
         concurrent: {
             server: [
-                // 'compass:server'
+                'sass:server'
             ],
             test: [
-                // 'compass'
+                'sass:server'
             ],
             dist: [
-                // 'compass:dist',
+                'sass:dist',
                 'htmlmin'
             ]
         },
