@@ -10,6 +10,7 @@ define("cordova/demo", [],  function() {
         // 'load', 'deviceready', 'offline', and 'online'.
         bindEvents: function() {
             var app = document.URL.indexOf( 'http://' ) === -1 && document.URL.indexOf( 'https://' ) === -1;
+            // find a better
             if ( app ) {
                 document.addEventListener('deviceready', this.onDeviceReady, false);
             } else {
