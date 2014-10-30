@@ -197,18 +197,18 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/org.apache.cordova.statusbar/www/statusbar.js",
+        "id": "org.apache.cordova.statusbar.statusbar",
+        "clobbers": [
+            "window.StatusBar"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.vibration/www/vibration.js",
         "id": "org.apache.cordova.vibration.notification",
         "merges": [
             "navigator.notification",
             "navigator"
-        ]
-    },
-    {
-        "file": "plugins/org.apache.cordova.statusbar/www/statusbar.js",
-        "id": "org.apache.cordova.statusbar.statusbar",
-        "clobbers": [
-            "window.StatusBar"
         ]
     }
 ];
@@ -223,8 +223,8 @@ module.exports.metadata =
     "org.apache.cordova.geolocation": "0.3.10",
     "org.apache.cordova.network-information": "0.2.13",
     "org.apache.cordova.splashscreen": "0.3.4",
-    "org.apache.cordova.vibration": "0.3.11",
-    "org.apache.cordova.statusbar": "0.1.8"
+    "org.apache.cordova.statusbar": "0.1.8",
+    "org.apache.cordova.vibration": "0.3.11"
 }
 // BOTTOM OF METADATA
 });

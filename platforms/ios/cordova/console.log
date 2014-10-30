@@ -212,3 +212,4 @@ https://developer.apple.com/icloud/documentation/data-storage/
 2014-10-30 11:24:38.244 Booking[18775:5690277] Resetting plugins due to page load.
 2014-10-30 11:24:38.456 Booking[18775:5690277] Finished load of: file:///Users/ilovriakov/Library/Developer/CoreSimulator/Devices/813088E2-88E1-4629-85EE-FE025C14A947/data/Containers/Bundle/Application/3FCBFA30-69D6-4F96-B698-33B5AB6B7304/Booking.app/www/index.html
 2014-10-30 11:24:38.605 Booking[18775:5690277] Received Event: deviceready
+2014-10-30 11:41:27.556 Booking[18775:5766729] Terminating since there is no system app.

@@ -33,11 +33,11 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Vibration\"><param name=\"android-package\" value=\"org.apache.cordova.vibration.Vibration\" /></feature>",
+                            "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" onload=\"true\" value=\"org.apache.cordova.statusbar.StatusBar\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" onload=\"true\" value=\"org.apache.cordova.statusbar.StatusBar\" /></feature>",
+                            "xml": "<feature name=\"Vibration\"><param name=\"android-package\" value=\"org.apache.cordova.vibration.Vibration\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -98,10 +98,10 @@
         "org.apache.cordova.splashscreen": {
             "PACKAGE_NAME": "com.booking.mobile"
         },
-        "org.apache.cordova.vibration": {
+        "org.apache.cordova.statusbar": {
             "PACKAGE_NAME": "com.booking.mobile"
         },
-        "org.apache.cordova.statusbar": {
+        "org.apache.cordova.vibration": {
             "PACKAGE_NAME": "com.booking.mobile"
         }
     },
