@@ -220,7 +220,7 @@ module.exports = function (grunt) {
             "matchCommunityTests" : false,
 
             // Have custom Modernizr tests? Add paths to their location here.
-            "customTests" : []
+            "customTests" : ['<%= booking.app %>/custom-test-modernizr.js']
         },
         useminPrepare: {
             options: {
