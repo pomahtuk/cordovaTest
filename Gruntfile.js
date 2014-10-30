@@ -240,7 +240,6 @@ module.exports = function (grunt) {
             dist: {
                 files: {
                     '<%= booking.dist %>/css/main.css': [
-                        '.tmp/css/{,*/}*.css',
                         '<%= booking.app %>/css/{,*/}*.css'
                     ]
                 }
@@ -337,12 +336,13 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'useminPrepare',
-        'concurrent:dist',
+        'htmlmin',
         'requirejs',
         'cssmin',
         'concat',
         'uglify',
         'copy',
+        'sass:dist',
         'rev',
         'usemin'
     ]);
