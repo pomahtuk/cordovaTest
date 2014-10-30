@@ -1,4 +1,4 @@
 node_modules
-dist
+www
 .tmp
 workdir/bower_components
