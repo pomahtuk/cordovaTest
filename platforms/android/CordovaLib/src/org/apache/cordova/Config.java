@@ -91,7 +91,7 @@ public class Config {
 
     public static String getStartUrl() {
         if (parser == null) {
-            return "http://m.booking.com";
+            return "file:///android_asset/www/index.html";
         }
         return parser.getLaunchUrl();
     }

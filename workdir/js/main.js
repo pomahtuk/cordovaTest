@@ -18,7 +18,6 @@ require(['jquery', 'cordova/demo'], function ($, cordovaApp) {
     cordovaApp.initialize();
 
     $(function() {
-        // add class?
         FastClick.attach(document.body);
     });
 
